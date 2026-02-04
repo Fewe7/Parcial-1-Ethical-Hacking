@@ -91,6 +91,7 @@ Matriz de hallazgos
 
 🛡️ Sección Blue Team
 🔐 Recomendaciones de Mitigación
+
 1️⃣ Protección del Tráfico
 Implementar HTTPS (TLS) para cifrar comunicaciones.
 Redirigir automáticamente HTTP → HTTPS.
