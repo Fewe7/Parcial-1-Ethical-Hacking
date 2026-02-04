@@ -4,17 +4,17 @@ Escenario: Black Box – Docker, Redes & Explotación Web
 Nivel: Intermedio
 Rol: Red Team
 
-⚠️ Disclaimer Ético & Legal
+# ⚠️ Disclaimer Ético & Legal
 
 Este laboratorio tiene fines exclusivamente educativos.
 Cualquier prueba de penetración realizada fuera de un entorno controlado y sin autorización explícita por escrito constituye un delito.
 Todas las actividades descritas en este documento se ejecutan únicamente dentro del entorno Docker aislado provisto en esta práctica.
 
-📌 Objetivo del Laboratorio
+# 📌 Objetivo del Laboratorio
 
 Simular un ataque realista de Red Team contra una aplicación web vulnerable, identificando debilidades en red y aplicación, y posteriormente proponer medidas de mitigación (Blue Team) para fortalecer la seguridad del sistema.
 
-🛠️ Metodología (Paso a Paso)
+# 🛠️ Metodología (Paso a Paso)
 
 🔹 Fase 1: Despliegue del Entorno
 Herramientas:
@@ -77,7 +77,8 @@ Se ejecuta un ataque de diccionario.
 Resultado:
 Recuperación de contraseñas almacenadas con hash inseguro (MD5).
 
-Matriz de hallazgos
+# Matriz de hallazgos
+
 | # | Vulnerabilidad                  | Descripción                            | Severidad  |
 | - | ------------------------------- | -------------------------------------- | ---------- |
 | 1 | Tráfico HTTP sin cifrar         | Credenciales capturadas en texto plano | 🔴 Alta    |
@@ -87,7 +88,7 @@ Matriz de hallazgos
 | 5 | Falta de rate limiting          | Permite fuerza bruta                   | 🟠 Media   |
 | 6 | Falta de validación de entradas | Inputs sin sanitizar                   | 🔴 Alta    |
 
-🛡️ Sección Blue Team
+# 🛡️ Sección Blue Team
 🔐 Recomendaciones de Mitigación
 
 1️⃣ Protección del Tráfico
@@ -117,7 +118,7 @@ Registrar intentos fallidos de autenticación.
 Usar IDS/IPS para detectar patrones anómalos.
 Revisar logs periódicamente.
 
-✅ Conclusión
+# ✅ Conclusión
 
 Este laboratorio demuestra cómo una aplicación mal configurada puede ser comprometida en múltiples fases de la Kill Chain, desde reconocimiento hasta post-explotación.
 La correcta aplicación de controles defensivos reduce significativamente la superficie de ataque y fortalece la postura de seguridad del sistema.
