@@ -1,4 +1,4 @@
-🧪 PentestLab: Operación Legacy Vault
+# 🧪 PentestLab: Operación Legacy Vault
 
 Escenario: Black Box – Docker, Redes & Explotación Web
 Nivel: Intermedio
