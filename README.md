@@ -14,8 +14,6 @@ Todas las actividades descritas en este documento se ejecutan únicamente dentro
 
 Simular un ataque realista de Red Team contra una aplicación web vulnerable, identificando debilidades en red y aplicación, y posteriormente proponer medidas de mitigación (Blue Team) para fortalecer la seguridad del sistema.
 
-.
-
 🛠️ Metodología (Paso a Paso)
 
 🔹 Fase 1: Despliegue del Entorno
